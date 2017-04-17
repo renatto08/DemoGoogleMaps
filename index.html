@@ -64,24 +64,34 @@
     </style>
   </head>
   <body>
-    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+	<script>
+
+
+	</script>
+  
+    <input id="pac-input" class="controls" type="text" placeholder="Ingrese su búsqueda">
     <div id="map"></div>
     <script>
-
-      // This example requires the Places library. Include the libraries=places
-      // parameter when you first load the API. For example:
+		
       // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+		   var parameters = location.search.substring(1).split("&");
 
+		var temp = parameters[0].split("=");
+		l = parseFloat(unescape(temp[1]));
+		temp = parameters[1].split("=");
+		p = parseFloat(unescape(temp[1]));
+		
+		
       function initAutocomplete() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -12.099438, lng: -77.019283},
+          center: {lat: l, lng: p},
           zoom: 13,
           mapTypeId: 'roadmap'
         });
 
-        // Create the search box and link it to the UI element.
+        // crear caja de texto y añadirlo al mapa
         var input = document.getElementById('pac-input');
-		input.placeholder='Ingrese la búsqueda';
+		//input.value=ciudad;
         var searchBox = new google.maps.places.SearchBox(input);
         map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
@@ -100,7 +110,7 @@
             return;
           }
 
-          // Clear out the old markers.
+          // Limpiar marcadores viejos
           markers.forEach(function(marker) {
             marker.setMap(null);
           });
