@@ -240,7 +240,7 @@
 	
 		   <Placemark>
       <name>Blue Line</name>
-      <styleUrl>#blueLine</styleUrl>
+      <styleUrl>#redLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
@@ -251,7 +251,7 @@
 	
 			   <Placemark>
       <name>Blue Line</name>
-      <styleUrl>#blueLine</styleUrl>
+      <styleUrl>#greenLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
