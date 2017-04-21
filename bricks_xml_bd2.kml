@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>ff009900</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="orangeLine">
+      <LineStyle>
+        <color>ff00ccff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="pinkLine">
+      <LineStyle>
+        <color>ffff33ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="brownLine">
+      <LineStyle>
+        <color>ff66a1cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="purpleLine">
+      <LineStyle>
+        <color>ffcc00cc</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Style id="yellowLine">
+      <LineStyle>
+        <color>ff61f2f2</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+<Placemark><name>Blue Line</name><styleUrl>#blueLine</styleUrl><LineString><altitudeMode>relative</altitudeMode><coordinates>	-76.9981,-12.0637	
+	-76.9981,-12.0633	
+	-76.9981,-12.0629	
+	-76.998,-12.0622	
+	-76.9979,-12.0619	
+	-76.9979,-12.0613	
+	-76.9978,-12.0608	
+	-76.9977,-12.0609	
+	-76.9974,-12.061	
+	-76.9973,-12.0609	
+	-76.9973,-12.0608	
+	-76.9974,-12.0604	
+	-76.9969,-12.0598	
+	-76.9963,-12.0591	
+	-76.996,-12.0591	
+	-76.9955,-12.059	
+	-76.9952,-12.0588	
+	-76.995,-12.0583	
+	-76.9948,-12.0578	
+	-76.9944,-12.0577	
+	-76.9944,-12.0574	
+	-76.9942,-12.0569	
+	-76.994,-12.0567	
+	-76.9934,-12.0561	
+	-76.9926,-12.0552	
+	-76.9914,-12.0552	
+	-76.9911,-12.0556	
+	-76.9907,-12.0561	
+	-76.9904,-12.0564	
+	-76.9899,-12.0568	
+	-76.9895,-12.0571	
+	-76.9883,-12.0576	
+	-76.9876,-12.0581	
+	-76.987,-12.0589	
+	-76.9868,-12.0594	
+	-76.9868,-12.0597	
+	-76.9875,-12.0603	
+	-76.9864,-12.0601	
+	-76.9859,-12.0599	
+	-76.9844,-12.0597	
+	-76.9828,-12.0607	
+	-76.9828,-12.0607	
+	-76.9875,-12.0624	
+	-76.9881,-12.0642	
+	-76.9895,-12.0644	
+	-76.9903,-12.0644	
+	-76.9918,-12.0642	
+	-76.9933,-12.0641	
+	-76.9952,-12.0639	
+	-76.9964,-12.0639	
+	-76.9971,-12.0638	
+	-76.9981,-12.0637	</coordinates></LineString></Placemark>
+
+</Document>
+</kml>
