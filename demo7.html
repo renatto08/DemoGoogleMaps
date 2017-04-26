@@ -32,10 +32,11 @@
         margin-left: -52px;
       }
     </style>
+	<script src="https://renatto08.github.io/DemoGoogleMaps/pos.js"></script>
   </head>
   <body>
     <div id="floating-panel">
-      <button id="drop" onclick="drop()">Drop Markers</button>
+      <button id="drop" onclick="drop()">Mostrar Markadores</button>
     </div>
     <div id="map"></div>
     <script>
@@ -44,12 +45,6 @@
       // consecutively rather than all at once. This example shows how to use
       // window.setTimeout() to space your markers' animation.
 
-      var neighborhoods = [
-        {lat: 52.511, lng: 13.447},
-        {lat: 52.549, lng: 13.422},
-        {lat: 52.497, lng: 13.396},
-        {lat: 52.517, lng: 13.394}
-      ];
 
       var markers = [];
       var map;
@@ -57,7 +52,7 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 12,
-          center: {lat: 52.520, lng: 13.410}
+          center: {lat: -12.073070, lng: -76.947578}
         });
       }
 
@@ -69,14 +64,28 @@
       }
 
       function addMarkerWithTimeout(position, timeout) {
-        window.setTimeout(function() {
-          markers.push(new google.maps.Marker({
-            position: position,
-            map: map,
-            animation: google.maps.Animation.DROP
-          }));
+        var marker = [];
+		window.setTimeout(function() {
+          //markers.push(new google.maps.Marker({
+          //  position: position,
+          //  map: map,
+          //  animation: google.maps.Animation.DROP
+          //}));
+		  
+		  marker = new google.maps.Marker({
+			  map: map,
+			  position: position,
+			  animation: google.maps.Animation.DROP
+		   });
+
+		  
         }, timeout);
-      }
+		google.maps.event.addListener(marker, 'click', function() {
+      
+      alert('hola');
+		
+      });
+	}
 
       function clearMarkers() {
         for (var i = 0; i < markers.length; i++) {
@@ -84,6 +93,10 @@
         }
         markers = [];
       }
+	  function cambiarColor() {
+		console.log('hola');
+	  }
+	  
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPT7tvpgrkvrptCXbJPkhe5x3HQnt8VMc&callback=initMap">
