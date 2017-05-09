@@ -236,9 +236,9 @@
 		  //marker.setIcon('http://maps.google.com/mapfiles/ms/icons/green-dot.png')
 		  // Creating the content to be inserted in the infowindow
 		  var iwContent = '<div id="iw_container">' +
-				'<div class="iw_title"> Dirección: ' + direccion + '</div>' +
-			 '<div class="iw_content"> Distrito: ' + distrito + '<br />' +
-			 loc_desc + '<br />' +
+				'<div class="iw_title"> RUC: ' + ruc + '</div>' +
+			 '<div class="iw_content"> Distrito: ' + distrito + '<br />' 
+			  + '<br />' +
 			 distrito + '</div></div>';
 		infoWindow.setContent(iwContent);
 		infoWindow.open(map, marker);
