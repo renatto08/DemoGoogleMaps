@@ -54,7 +54,7 @@
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 9,
+          zoom: 10,
           center: {lat: -12.073070, lng: -76.947578} //,
           //mapTypeId: 'terrain'
         });
@@ -156,6 +156,8 @@
 			bermudaTriangle.addListener('click', showArrays);
 			bermudaTriangle.setMap(map);
 			poligonos.push(bermudaTriangle);
+			var latlng = new google.maps.LatLng(lat, lon);
+			map.setCenter(latlng);
 		}
 			//break;
 		}
