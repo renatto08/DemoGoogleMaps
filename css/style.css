@@ -11,12 +11,12 @@ License: GNU General Public License v3.0
 */
 
 
-/* =================================================================== 
-							CSS Structure 
+/* ===================================================================
+							CSS Structure
 ======================================================================
 1. GLOBAL STYLES
    -Common Styles
-   -Page Loader	
+   -Page Loader
 2. NAVIGATION MENU
 3. TEXT SLIDE SECTION
 4. WE ARE SECTION
@@ -34,10 +34,10 @@ License: GNU General Public License v3.0
     -Hover effects
 16. CONTACT SECTION
 	-Contact details
-	-Map 
+	-Map
 	-Footer
 
-/* =================================================================== 
+/* ===================================================================
 							GLOBAL STYLES
 ======================================================================*/
 body, .tooltip-inner{
@@ -263,7 +263,7 @@ blockquote.dark p:after, blockquote.dark p:before{
 .tooltip-sm .tooltip.right{
 	margin-left:10px;
 }
-/*---------------Page Loader---------------------*/	
+/*---------------Page Loader---------------------*/
 
 #pageloader {
     background-color:#fff;
@@ -280,7 +280,7 @@ blockquote.dark p:after, blockquote.dark p:before{
     top: 50%;
     transform: translateY(-47%) translateX(-38%);
 }
-} 
+}
 .square-spin > div{
 	border: 0px !important;
 	background: #333;
@@ -408,7 +408,7 @@ h3.text-just-hand{
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
-   
+
 }
 .rating {
   unicode-bidi: bidi-override;
@@ -456,7 +456,7 @@ h3.text-just-hand{
 
 /* Animation */
 .animated {
-	visibility:hidden; 
+	visibility:hidden;
 }
 .visible {
 	visibility:visible;
@@ -564,7 +564,7 @@ h3.text-just-hand{
 	position: absolute;
 	bottom: -50%;
 	right: 10px;
-	
+
 }
 /* Load More */
 .load-more{
@@ -576,14 +576,14 @@ h3.text-just-hand{
 /* Hover Image Filter Img Style */
 .img-hvr-filter-parent img,
 .blog-item img, .my-feeds li img  {
-	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale"); 
-	/* for Webkit browsere, Chrome 19+, Safari 6+ ... */  
-	-webkit-filter: grayscale(0);  
-	filter: gray; 
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	/* for Webkit browsere, Chrome 19+, Safari 6+ ... */
+	-webkit-filter: grayscale(0);
+	filter: gray;
 	opacity:1;
-	-moz-filter: grayscale(0);  
-	 -ms-filter: grayscale(0);  
-	  -o-filter: grayscale(0);  
+	-moz-filter: grayscale(0);
+	 -ms-filter: grayscale(0);
+	  -o-filter: grayscale(0);
 	     filter: grayscale(0);
 	-webkit-transition: all 0.4s ease 0s;
 	   -moz-transition: all 0.4s ease 0s;
@@ -592,14 +592,14 @@ h3.text-just-hand{
 			transition: all 0.4s ease 0s;
 }
 .img-hvr-filter-parent:hover img,
-.blog-item:hover img, .my-feeds li:hover img { 
-	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.9999 0.9999 0.9999 0 0 0.9999 0.9999 0.9999 0 0 0.9999 0.9999 0.9999 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* for Webkit browsere, Chrome 19+, Safari 6+ ... */  
-	  -webkit-filter: grayscale(1);  
-	 -moz-filter: grayscale(1);  
-	 -ms-filter: grayscale(1);  
-	 -o-filter: grayscale(1);  
-	 filter: grayscale(1); 
-	 opacity:1; 
+.blog-item:hover img, .my-feeds li:hover img {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.9999 0.9999 0.9999 0 0 0.9999 0.9999 0.9999 0 0 0.9999 0.9999 0.9999 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* for Webkit browsere, Chrome 19+, Safari 6+ ... */
+	  -webkit-filter: grayscale(1);
+	 -moz-filter: grayscale(1);
+	 -ms-filter: grayscale(1);
+	 -o-filter: grayscale(1);
+	 filter: grayscale(1);
+	 opacity:1;
 	 filter: gray;
 	 -webkit-transition: all 0.4s ease 0s;
 	    -moz-transition: all 0.4s ease 0s;
@@ -1184,6 +1184,11 @@ h3.text-just-hand{
 {
     color: #fff;
 }
+
+.btn-caligrafy{
+	font-family: "Lucida Calligraphy";
+}
+
 .btn.btn-theme-color-inverse:hover,
 .btn.btn-theme-color-inverse:active,
 .btn.btn-theme-color-inverse:focus
@@ -1222,8 +1227,8 @@ h3.text-just-hand{
 	border-color: #000;
 }
 .load-posts{
-	padding:0px 20px !important;    
-	width: auto !important;   
+	padding:0px 20px !important;
+	width: auto !important;
 }
 /* Button Set */
 .button-set li{
@@ -1428,8 +1433,8 @@ h3.text-just-hand{
 	font-weight: 600;
 	padding-left: 0;
 }
-.nav-pills > li > a:hover, 
-.nav-pills > li > a:focus, 
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus,
 .nav-pills > li > a.active{
 	background: transparent;
 	position: relative;
@@ -1464,8 +1469,8 @@ h3.text-just-hand{
     background: none repeat scroll 0 0 transparent;
     border-color: transparent;
 }
-.nav-tabs > li.active > a, 
-.nav-tabs > li.active > a:focus, 
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover{
 	border: 0px;
 	background: transparent;
@@ -1490,17 +1495,17 @@ h3.text-just-hand{
 .tab-light .tab-body {
     padding: 20px;
     background: rgba(255,255,255,0.2);
-	border-radius: 0 4px 4px 4px; 
-	-webkit-border-radius: 0 4px 4px 4px; 
-	-ms-border-radius: 0 4px 4px 4px; 
+	border-radius: 0 4px 4px 4px;
+	-webkit-border-radius: 0 4px 4px 4px;
+	-ms-border-radius: 0 4px 4px 4px;
 	-o-border-radius: 0 4px 4px 4px;
 }
 .tab-light .active > a {
     background: rgba(255,255,255,0.2) !important;
     padding: 12px;
 }
-.nav-tabs > li.active > a:after, 
-.nav-tabs > li:hover > a:after, 
+.nav-tabs > li.active > a:after,
+.nav-tabs > li:hover > a:after,
 .nav-tabs > li:focus > a:after{
 	width: 100%;
 }
@@ -1526,16 +1531,16 @@ h3.text-just-hand{
 }
 .effect-parent:hover .effect.overlay{
 	opacity: 1;
-	
+
 }
 /* *********** overlay Caption ************ */
-.overlay-caption{	
+.overlay-caption{
 	position: absolute;
 	top: 0;
 	left: 0;
 	opacity: 0;
 }
-.overlay-caption.bottom{	
+.overlay-caption.bottom{
 	bottom: 0;
 	top: auto;
 }
@@ -1549,7 +1554,7 @@ h3.text-just-hand{
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	-ms-transition: all 0.4s ease 0s;
-	
+
 	transition-delay: 0.2s;
 	-webkit-transition-delay: 0.2s;
 	-o-transition-delay: 0.2s;
@@ -1582,12 +1587,12 @@ h3.text-just-hand{
 	-webkit-transition: all 0.2s ease 0s;
 	-ms-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
-	
+
 	transform: translateX(-0);
 	-webkit-transform: translateX(-0);
 	-ms-transform: translateX(-0);
 	-o-transform: translateX(-0);
-	
+
 	transition-delay: 0.4s;
 	-webkit-transition-delay: 0.4s;
 	-o-transition-delay: 0.4s;
@@ -1599,14 +1604,14 @@ h3.text-just-hand{
 	-webkit-transition: all 0.2s ease 0s;
 	-o-transition: all 0.2s ease 0s;
 	-ms-transition: all 0.2s ease 0s;
-	
+
 	transition-delay: 0.3s;
 	-webkit-transition-delay: 0.3s;
 	-o-transition-delay: 0.3s;
 	-ms-transition-delay: 0.3s;
 }
 
-/*Portfolio Image Move 
+/*Portfolio Image Move
 .project-grid .item  .portfolio-item img{
     transform: translate3d(0px, 0px, 0px);
 	transition: all 0.2s ease 0s;
@@ -1623,8 +1628,8 @@ h3.text-just-hand{
 	opacity: 1;
 }
 /* Hover Zoom Value Minus Effect */
-.hvr-boxed, .hvr-boxed:hover.hvr-boxed-content, 
-.hvr-boxed-content, 
+.hvr-boxed, .hvr-boxed:hover.hvr-boxed-content,
+.hvr-boxed-content,
 .hvr-boxed-content h3, .hvr-boxed:hover .hvr-boxed-content h3{
 	-webkit-transition: all 0.4s ease 0s;
 	   -moz-transition: all 0.4s ease 0s;
@@ -1646,7 +1651,7 @@ h3.text-just-hand{
 .hvr-boxed:hover .hvr-boxed-content h4, .hvr-boxed.dark:hover .hvr-boxed-content h4{
 	color: #fff;
 }
-.hvr-boxed.dark:hover .hvr-boxed-content i, 
+.hvr-boxed.dark:hover .hvr-boxed-content i,
 .hvr-boxed.dark:hover .hvr-boxed-content p{
 	color: #bbb;
 }
@@ -1753,18 +1758,18 @@ nav.navbar,
 	background:         linear-gradient(90deg, #f857a6 10%, #ff5858 90%); /* W3C */
 }
 .gradient2{
-	
- 
+
+
 
   background: -webkit-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #DD5E89 10%, #F7BB97 90%); /* W3C */
-        
-        
+
+
 }
-        
+
 
 
 /* Transition Duration */
@@ -2116,7 +2121,7 @@ hr{
 	right: 0;
 	margin: 0 auto;
 }
-.title-description.align-left h2:before {	
+.title-description.align-left h2:before {
 	right: inherit;
 }
 .title-description.m-title h2:after {
@@ -2132,7 +2137,7 @@ hr{
     right: 0;
     margin: 0 auto;
 }
-.title-description.m-title.align-left  h2:after {   
+.title-description.m-title.align-left  h2:after {
     right: inherit;
 }
 .title-description:hover h2:before{
@@ -2256,7 +2261,7 @@ hr{
     margin-top: 20px;
 }
 .page-tile-block h5{
-	font-size:15px;    
+	font-size:15px;
 	font-style: inherit;
 }
 /* Breadcrumbs */
@@ -2337,7 +2342,7 @@ hr{
 	border-width: 2px;
 	margin-left: -2px;
 }
-.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > a.active, 
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > a.active,
 .pagination > li > span:focus, .pagination > li > span:hover{
 	color: #fff;
 }
@@ -2354,13 +2359,13 @@ hr{
 
 /* Budges */
 .badge{
-	padding: 3px 5px;    
+	padding: 3px 5px;
 	font-size: 9px;
 }
 /* =====================================
 
-			Header Menu 
-		
+			Header Menu
+
 =========================================*/
 
 
@@ -2399,7 +2404,7 @@ hr{
 	color: #fff;
 }
 .navbar-brand .logo-first-letter:after {
-    border-radius: 50%;  -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; 
+    border-radius: 50%;  -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;
     content: "";
     height: 5px;
     left: 5px;
@@ -2409,7 +2414,7 @@ hr{
 }
 .navbar-brand .logo-first-letter {
 	position: relative;
-} 
+}
 #header .navbar-brand::after {
     top: 35px;
     left: 20px;
@@ -2511,9 +2516,9 @@ form .btn{
 	background-color: #7b7b7b;
 }
 /* ---------------------------
-		
-		Click to Open toggle 
-		
+
+		Click to Open toggle
+
 ------------------------------ */
 .hide-show-content {
     position: absolute;
@@ -2546,7 +2551,7 @@ form .btn{
 /* =====================================
 
 			Slider
-		
+
 =========================================*/
 .slider{
 	position: relative;
@@ -2564,7 +2569,7 @@ form .btn{
 	width: 100%;
 }
 .slider-content.vertical-align-middle-block{
-	 
+
 }
 /* Rs slider */
 .rs-slider-section{
@@ -2584,8 +2589,8 @@ form .btn{
 
 /*===============================
 
-		About Us 
-		
+		About Us
+
 =================================*/
 /* Company Block */
 .company-slider-block{
@@ -2664,8 +2669,8 @@ form .btn{
 
 /*===============================
 
-		Who We Are 
-		
+		Who We Are
+
 =================================*/
 .who-we-are-block img{
 	float: left;
@@ -2684,7 +2689,7 @@ form .btn{
 /*===============================
 
 		Success Block
-		
+
 =================================*/
 /*.success {
     background: rgba(0, 0, 0, 0) url("../images/content/success.png") no-repeat scroll 0 0;
@@ -2760,8 +2765,8 @@ form .btn{
 
 /*===============================
 
-		More About Us Section 
-		
+		More About Us Section
+
 =================================*/
 .content-icon-block-two{
 	position: relative;
@@ -2797,8 +2802,8 @@ form .btn{
 
 /*===============================
 
-	 Facts Section 
-		
+	 Facts Section
+
 =================================*/
 .fact-section .bg-color-overlay{
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
@@ -2824,8 +2829,8 @@ form .btn{
 }
 /*===============================
 
-	 Why Love It Section 
-		
+	 Why Love It Section
+
 =================================*/
 .legend {
     margin-top: -55px;
@@ -2942,7 +2947,7 @@ form .btn{
   height: 30px;
   width: 30px;
   -webkit-animation: ball-scale 1s 0s ease-in-out infinite;
-          animation: ball-scale 1s 0s ease-in-out infinite; 
+          animation: ball-scale 1s 0s ease-in-out infinite;
 }
 
 
@@ -2993,8 +2998,8 @@ form .btn{
 }
 /*===============================
 
-	 Skills Section 
-		
+	 Skills Section
+
 =================================*/
 .skills-section.bg-2{
 	background-position: 50% 85%;
@@ -3035,8 +3040,8 @@ form .btn{
 }
 /*===============================
 
-	 Testimonials 
-		
+	 Testimonials
+
 =================================*/
 .testimonials-section .bg-color-overlay{
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
@@ -3052,15 +3057,15 @@ form .btn{
     right: 0;
     margin: 0 auto;
     width: 50px;
-} 
+}
 /*===============================
 
-	 Portfolio 
-		
+	 Portfolio
+
 =================================*/
 .project-grid .grid-sizer { width: 33.3%; }
 .project-grid .mini-item { width: 25%;}
-.project-grid .mini-item.w2 { width: 50%; }	
+.project-grid .mini-item.w2 { width: 50%; }
 .project-grid .w3 { width: 33.34%; }
 /* 2 Column */
 .project-grid .grid-sizer.grid-sizer-2 { width: 50%; }
@@ -3105,8 +3110,8 @@ form .btn{
 }
 /*===============================
 
-	 Pricing 
-		
+	 Pricing
+
 =================================*/
 .pricing-box {
     border: 2px solid;
@@ -3202,16 +3207,16 @@ form .btn{
 }
 /*===============================
 
-	 Vide Section 
-		
+	 Vide Section
+
 =================================*/
 .video-section{
 	min-height: 400px;
 }
 /*===============================
 
-	 Team Section 
-		
+	 Team Section
+
 =================================*/
 .team-section .owl-carousel .item{
 	margin: 0 4px;
@@ -3254,16 +3259,16 @@ form .btn{
 }
 /*===============================
 
-	 Customer  Section 
-		
+	 Customer  Section
+
 =================================*/
 .customer-section .owl-carousel .item {
     margin: 0 56px;
 }
 /*===============================
 
-	 Blog Section 
-		
+	 Blog Section
+
 =================================*/
 .blog-item img{
 	width: 100%;
@@ -3303,8 +3308,8 @@ form .btn{
 }
 /*===============================
 
-	Contact Section 
-		
+	Contact Section
+
 =================================*/
 .contact-section .form-control{
 	margin-bottom: 30px;
@@ -3333,8 +3338,8 @@ form .btn{
 }
 /*===============================
 
-	Contact Detail 
-		
+	Contact Detail
+
 =================================*/
 .map-section, .contact-detail-block {
     min-height: 422px;
@@ -3348,8 +3353,8 @@ address p i{
 }
 /*===============================
 
-	Footer Section 
-		
+	Footer Section
+
 =================================*/
 .footer-section{
 	background: #222;
@@ -3396,7 +3401,7 @@ address p i{
 	font-family: "icomoon";
 	position: absolute;
 	left: 0;
-	font-style: normal;	
+	font-style: normal;
 }
 /* Cpoy Rights Section */
 .copyrights-section{
@@ -3439,11 +3444,11 @@ address p i{
 
 /* ============= Page Style  ================== */
 .page-boxed{
-	-webkit-box-shadow: 1px 3px  16px 1px #ccc; 
+	-webkit-box-shadow: 1px 3px  16px 1px #ccc;
 	   -moz-box-shadow: 1px 3px  16px 1px #ccc;
 		 -ms-box-shadow:1px 3px  16px 1px #ccc;
-		 -o-box-shadow: 1px 3px  16px 1px #ccc; 
-		    box-shadow: 1px 3px  16px 1px #ccc; 
+		 -o-box-shadow: 1px 3px  16px 1px #ccc;
+		    box-shadow: 1px 3px  16px 1px #ccc;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	margin-left: auto;
@@ -3687,7 +3692,7 @@ address p i{
 	top: 20px;
 }
 .offer-label.green-label{
-	background-color: #0F9D58; 
+	background-color: #0F9D58;
 }
 .offer-label.orange-label{
 	background-color: #FCAE07;
@@ -3990,13 +3995,13 @@ p{
 }
 .header-contact:after,
 .navbar-nav > li > a.header-contact:hover:after{
-    background-color: #aaa !important;	
+    background-color: #aaa !important;
     left: inherit;
 }
 .navbar-nav > li > a.header-search:after,
 .navbar-nav > li > a.header-search:hover:after{
 	content:none!important;
 }
-.title-description{	
+.title-description{
 	padding:0px;
 }
