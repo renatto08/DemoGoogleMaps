@@ -4005,3 +4005,26 @@ p{
 .title-description{
 	padding:0px;
 }
+
+.whatsapp-contact{
+	position: fixed;
+	z-index: 500;
+	right: 4.2em; 
+	bottom: 2em; 
+	height: 64px; 
+	display: flex;
+	align-items: center;
+}
+.whatsapp-contact-text{
+	color:white;
+	display: inherit;
+	align-items: inherit;
+	padding: 0 5px;
+	height: 64px;
+	background-color: #a3d0ef;
+	border: 2px solid #b4d3e8;
+	border-radius: 8px;
+	margin-right: 20px;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
