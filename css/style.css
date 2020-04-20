@@ -4016,16 +4016,30 @@ p{
 	align-items: center;
 }
 .whatsapp-contact-text{
-	color:white;
+	color:black;
 	display: inherit;
 	align-items: inherit;
 	padding: 0 5px;
 	height: 64px;
-	background-color: #a3d0ef;
-	border: 2px solid #b4d3e8;
+	background-color: white;
+	border: 2px solid #f1f1f1;
 	border-radius: 8px;
 	margin-right: 20px;
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
-	
+	box-shadow: 0 0 5px #ddd;
 }
+
+/*.whatsapp-contact-text {
+    color: white;
+    display: inherit;
+    align-items: inherit;
+    padding: 0 5px;
+    height: 64px;
+    background-color: #a3d0ef;
+    border: 2px solid #b4d3e8;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}*/
