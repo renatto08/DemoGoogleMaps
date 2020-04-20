@@ -4009,13 +4009,13 @@ p{
 .whatsapp-contact{
 	position: fixed;
 	z-index: 500;
-	right: 2.2em; 
+	right: 0.8em; 
 	bottom: 1em; 
 	height: 64px; 
 	display: flex;
 	align-items: center;
 }
-.whatsapp-contact-text{
+/*.whatsapp-contact-text{
 	color:black;
 	display: inherit;
 	align-items: inherit;
@@ -4028,18 +4028,33 @@ p{
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
 	box-shadow: 0 0 5px #ddd;
-}
+}*/
 
+.whatsapp-contact-text {
+    color: white;
+    display: inherit;
+    align-items: inherit;
+    padding: 0 5px;
+    height: 64px;
+    background-color: #78d2ec;
+    /*border: 2px solid #b4d3e8;*/
+    border-radius: 8px;
+    margin-right: 20px;
+    font-family: "Open Sans", sans-serif;
+	text-align: center;
+	box-shadow: 0 0 5px #b4ebfa;
+}
 /*.whatsapp-contact-text {
     color: white;
     display: inherit;
     align-items: inherit;
     padding: 0 5px;
     height: 64px;
-    background-color: #a3d0ef;
-    border: 2px solid #b4d3e8;
+    background-color: #89e894;
+    /*border: 2px solid #b4d3e8;
     border-radius: 8px;
     margin-right: 20px;
     font-family: "Open Sans", sans-serif;
-    text-align: center;
+	text-align: center;
+	box-shadow: 0 0 5px #89e894;
 }*/
